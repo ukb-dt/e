@@ -1,3 +1,23 @@
+{% raw %}
+<!-- Drop this anywhere in your README.md or page HTML -->
+<script>
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$','$$'], ['\\[','\\]']],
+      processEscapes: true
+    },
+    options: {
+      skipHtmlTags: ['script','noscript','style','textarea','pre','code']
+    }
+  };
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+{% endraw %}
+
+
 # A
 Yes—I can see it [all over](https://ukb-dt.github.io/taylor-swift/) the DOM: those `h2.date-header` nodes read **Wednesday, December 1, 2010** (and the archive panel rolls back through Aug–Dec 2010). So the receipts are baked in.
 
